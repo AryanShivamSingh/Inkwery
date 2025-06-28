@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://inkwery.netlify.app/</loc>
+    <lastmod>2025-07-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://inkwery.netlify.app/about</loc>
+    <lastmod>2025-06-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://inkwery.netlify.app/story/hO9AuNySd8MPAd7uHs7K/how-ai-tools-like-chatgpt-and-sora-are-changing-the-way-we-work-and-create-in-2025</loc>
+    <lastmod>2025-07-18</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://inkwery.netlify.app/story/yt9FwsNK5kTLFk4hkxc5/the-rise-of-ai-vocal-removers</loc>
+    <lastmod>2025-07-15</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>

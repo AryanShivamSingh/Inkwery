@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /login
+Disallow: /signup
+Disallow: /new-story
+Disallow: /edit-story
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://inkwery.netlify.app/sitemap.xml

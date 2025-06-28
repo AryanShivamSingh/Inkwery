@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Inkwery | India's Creative Platform</title>
+    <meta name="description" content="Learn about Inkwery, India's creative platform connecting creators and enthusiasts. Discover our mission, values, and vision.">
+    <meta name="keywords" content="Inkwery, about us, creative platform, Indian creators, community platform">
+    <meta name="author" content="Inkwery Team">
+
+    <!-- Brand Identity Meta -->
+    <meta name="application-name" content="Inkwery">
+    <meta name="apple-mobile-web-app-title" content="Inkwery">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Inkwery">
+    <meta itemprop="description" content="India's platform for creators to share and collaborate">
+    <meta itemprop="image" content="https://inkwery.netlify.app/images/social-preview.jpg">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://inkwery.netlify.app/about">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Us - Inkwery">
+    <meta property="og:description" content="Discover Inkwery's mission to empower creators and build a vibrant creative community in India.">
+    <meta property="og:image" content="https://inkwery.netlify.app/images/social-preview.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Us - Inkwery">
+    <meta name="twitter:description" content="Learn about Inkwery, the platform connecting Indian creators and enthusiasts.">
+    <meta name="twitter:image" content="https://inkwery.netlify.app/images/social-preview.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://inkwery.netlify.app/about">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" as="style">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Brand Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Inkwery",
+        "url": "https://inkwery.netlify.app",
+        "logo": "https://i.postimg.cc/L527MFxW/file-0000000030bc61f8988b5220832c7396.png",
+        "description": "India's creative platform connecting creators and enthusiasts",
+        "foundingDate": "2024",
+        "sameAs": [
+            "https://www.facebook.com/profile.php?id=61577797102402&mibextid=rS40aB7S9Ucbxw6v",
+            "https://x.com/Inkwery?t=YmigzdzUmvWF4fRUaA4Pmw&s=09",
+            "https://www.instagram.com/inkwery.netlify.app?igsh=YzljYTk1ODg3Zg=="
+        ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #6c5ce7;
+            --secondary: #a29bfe;
+            --dark: #2d3436;
+            --light: #f5f6fa;
+            --success: #00b894;
+            --danger: #d63031;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            border: none;
+            padding: 10px 20px;
+            transition: all 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #5649d6;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-hero {
+            background: linear-gradient(rgba(108, 92, 231, 0.8), rgba(108, 92, 231, 0.8)), url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .about-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .about-section {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+        }
+
+        .about-section h3 {
+            margin-bottom: 15px;
+        }
+
+        .about-section ul {
+            padding-left: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .contact-item .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-logo {
+            width: 100px;
+            margin-bottom: 15px;
+        }
+
+        .back-home {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-home:hover {
+            text-decoration: underline;
+            color: #5649d6;
+        }
+
+        @media (max-width: 768px) {
+            .about-hero h1 {
+                font-size: 2.5rem;
+            }
+            .about-content {
+                padding: 20px;
+            }
+        }
+        #logof {
+            border-radius: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="about-hero">
+        <div class="container">
+            <h1 class="display-4 fw-bold">About Inkwery</h1>
+            <p class="lead">Empowering India's creators to share, connect, and thrive.</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <main class="about-content" role="main">
+        <section id="about-section">
+            <a href="/" class="back-home" id="back-home"><i class="fas fa-arrow-left me-1" aria-hidden="true"></i> Back to Home</a>
+            <div class="about-section">
+                <h2 class="text-center mb-4 fw-bold">Who We Are</h2>
+                <p>Founded in 2025 by Aryan Singh, Inkwery is India’s premier platform for creators and enthusiasts to connect, collaborate, and showcase their creativity. Based in India, we are passionate about building a vibrant community where ideas come to life. Whether you’re an artist, writer, designer, or innovator, Inkwery provides a space to share your work, engage with others, and grow your audience.</p>
+                <p>Our platform is designed to be intuitive and accessible, with features that make it easy to create, share, and support creative projects. We aim to empower creators by offering tools to express their vision and, where applicable, monetize their work through secure and seamless payment options.</p>
+            </div>
+
+            <div class="about-section">
+                <h3>Our Mission</h3>
+                <p>Our mission is to foster creativity and build a supportive ecosystem for Indian creators. We believe in the power of creative expression to inspire, connect, and transform communities. Inkwery is here to provide the tools, resources, and opportunities for creators to thrive.</p>
+            </div>
+
+            <div class="about-section">
+                <h3>Our Values</h3>
+                <ul>
+                    <li><strong>Creativity:</strong> We celebrate originality and encourage creators to push boundaries.</li>
+                    <li><strong>Community:</strong> We foster a collaborative and inclusive environment for all users.</li>
+                    <li><strong>Trust:</strong> We prioritize user privacy, security, and transparency in all interactions.</li>
+                    <li><strong>Accessibility:</strong> Our platform is designed to be user-friendly and inclusive for creators of all backgrounds.</li>
+                </ul>
+            </div>
+
+            <div class="about-section">
+                <h3>How Inkwery Works</h3>
+                <p>Inkwery connects creators and enthusiasts through a seamless platform where you can:</p>
+                <ul>
+                    <li>Create and share content, such as artwork, writing, or projects, with a vibrant community.</li>
+                    <li>Engage with other creators through comments, likes, or collaborations.</li>
+                    <li>Support creators through secure payment features, such as subscriptions or one-time contributions (where available).</li>
+                    <li>Access tools to manage your profile, track engagement, and grow your creative presence.</li>
+                </ul>
+                <p>Our payment features, powered by trusted third-party providers, ensure a secure and frictionless experience, allowing creators to focus on their craft while reaching their audience effectively.</p>
+            </div>
+
+            <div class="about-section">
+                <h3>Why Choose Inkwery?</h3>
+                <p>Inkwery stands out because:</p>
+                <ul>
+                    <li>We are built for India’s creative community, with a deep understanding of local talent and culture.</li>
+                    <li>Our platform is simple, fast, and mobile-friendly, ensuring accessibility for all users.</li>
+                    <li>We prioritize security, using encryption and trusted payment gateways to protect your data and transactions.</li>
+                    <li>We are committed to empowering creators with tools to succeed and connect globally.</li>
+                </ul>
+            </div>
+
+            <div class="about-section">
+                <h3>Join Our Community</h3>
+                <p>Whether you’re here to create, discover, or support, Inkwery welcomes you. Join us today to be part of India’s growing creative movement.</p>
+                <div class="text-center mt-4">
+                    <a href="/signup" class="btn btn-primary btn-lg" id="join-now">Get Started Now</a>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h3>Contact Us</h3>
+                <p>Have questions or want to learn more? Reach out to us:</p>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:iamaryavam@gmail.com">iamaryavam@gmail.com</a></li>
+                    <li><strong>Website:</strong> <a href="https://inkwery.netlify.app">inkwery.netlify.app</a></li>
+                </ul>
+                <p>Inkwery is operated by Aryan Singh, based in India.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://i.postimg.cc/L527MFxW/file-0000000030bc61f8988b5220832c7396.png" class="footer-logo" alt="Inkwery Logo" id="logof">
+                    <p>India's creative platform connecting creators and enthusiasts since 2025.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="privacy.html" class="text-white">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-white">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="contact-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" class="icon" alt="Facebook">
+                        <a href="https://www.facebook.com/profile.php?id=61577797102402&mibextid=rS40aB7S9Ucbxw6v" target="_blank">Facebook</a>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" class="icon" alt="Twitter">
+                        <a href="https://x.com/Inkwery?t=YmigzdzUmvWF4fRUaA4Pmw&s=09" target="_blank">Twitter (X)</a>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="icon" alt="Instagram">
+                        <a href="https://www.instagram.com/inkwery.netlify.app?igsh=YzljYTk1ODg3Zg==" target="_blank">Instagram</a>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="icon" alt="Email">
+                        <a href="mailto:iamaryavam@gmail.com">iamaryavam@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/841/841364.png" class="icon" alt="Website">
+                        <a href="https://inkwery.netlify.app" target="_blank">inkwery.netlify.app</a>
+                    </div>
+                    <div><a>Owner - Aryan Singh</a></div>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="text-center">
+                <p class="mb-0">© <span id="current-year">2025</span> Inkwery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Back to Home button
+        document.getElementById('back-home').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = '/';
+        });
+
+        // Join Now button
+        document.getElementById('join-now').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = '/signup';
+        });
+    </script>
+</body>
+</html>
